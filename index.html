@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Bjerkek AS</title>
+      <link href="./css/main.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <div id="main">
+        <h1>Bjerkek <span>AS</span></h1>
+    </div>
+    
+    <script type="text/javascript" src="./js/three.r92.min.js"></script>
+    <script type="text/javascript" src="./js/vanta.birds.min.js"></script>
+    <script>
+    VANTA.BIRDS({
+      el: "#main",
+      backgroundColor: '#006666',
+      color1: '#004c4c',
+      color2: '#006666',
+      colorMode: "lerp",
+      wingSpan: 16.00,
+      quantity: 4.00,
+      separation: 1.00,
+    })
+    </script>
+  </body>
+</html>
