@@ -17,9 +17,8 @@ h1 > span {
   color: #bce2e29c;
 }
 
-#main {
+main {
   height: 100%;
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
 }
